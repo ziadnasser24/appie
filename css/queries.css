@@ -1,0 +1,309 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width:84em){
+    .hero{
+        max-width: 120em;
+    }
+    .primary-header {
+        font-size: 5.4rem;
+      }
+}
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width:75em)
+{
+    html {
+        /* 9px / 16px  */
+        font-size: 56.25%;
+    }
+    .price-box-full::after{
+        font-size: 1.2rem;
+        left: 200px;
+    }
+    .copy-right-text{
+        justify-self: center;
+    }
+}
+/**************************/
+/* BELOW 1038px  */
+/**************************/
+@media (max-width:65em)
+{
+    html {
+        /* 9px / 16px  */
+        font-size: 50%;
+    }
+    .price-box-full::after{
+        font-size: 1.2rem;
+        left: 160px;
+    }
+    .download-apps-btns{
+        justify-self: center;
+    }
+   
+}
+/**************************/
+/* BELOW 870px  */
+/**************************/
+@media (max-width:54.3em)
+{
+    .header-mark{
+        font-size: 4rem;
+    }
+    .text{
+        width: 70%;
+    }
+    .price-box-full::after{
+        font-size: 1.2rem;
+        left: 140px;
+    }
+    .sponsers{
+        width: 85%;
+    }
+    .sponser-header {
+        width: 54%;
+    }
+    .input{
+        padding: 12px 18px;
+        max-width: 71%;
+    }
+}
+/**************************/
+/* BELOW 809px  */
+/**************************/
+@media(max-width:50.5em)
+{
+    .primary-header {
+        font-size: 4.4rem;
+      }
+      .input{
+        padding: 8px 18px;
+        max-width: 85%;
+    }
+    .how{
+        grid-template-columns: 1fr 1fr;
+    }
+    .text{
+        padding: 2rem 0;
+        width: 84%;
+    }
+    .activte-box{
+        padding: 2rem 0;
+        width: 100%;
+    }
+    .activte-box img{
+        width: 40%;
+    }
+   
+    .price-box{
+        padding: 3rem 2rem;
+    }
+    .header-mark{
+        font-size: 3.2rem;
+    }
+    .img-markting img{
+        width: 80%;
+    }
+    .custmers-review{
+        padding: 8rem;
+    }
+}
+/**************************/
+/* BELOW 704px  */
+/**************************/
+@media (max-width:44em){
+    .text-box-2{
+        display: block;
+    }
+    .icon-box{
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    .header-mark{
+        font-size: 2.8rem;
+    }
+    .head-side .secondary-header{
+        font-size: 3.2rem;
+    }
+    .header-pricing .secondary-header {
+        font-size: 3.2rem;
+    }
+
+    .priceng-grid{
+        grid-template-columns: 1fr;
+    }
+    .price-box {
+        padding: 9rem;
+        width: 60%;
+        justify-self: center;
+    }
+    .price-box-full::after{
+        font-size: 1.2rem;
+        left: 240px;
+    }
+    .text h5{
+        font-size: 1.6rem;
+    }
+    
+    .custmers-review {
+        padding: 5rem;
+    }
+    .how-side .container{
+        padding: 0;
+    }
+    .text-box-markting {
+        padding: 3.4rem 2.8rem;
+    }
+    .dec-text {
+        width: 90%;
+    }
+    
+    .input {
+        padding: 8px 28px;
+        max-width: 100%;
+    }
+    .text .sub-titel{
+        font-size: 1.2rem;
+    }
+
+}
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) 
+{
+
+    .header{
+        overflow: hidden;
+    }
+    .hero{
+        gap: 0;
+        padding-top: 9rem;
+        height: auto;
+        overflow: hidden;
+    }
+    .grid-template-col-2
+    ,.grid-template-col-3
+    ,.grid-template-col-4
+    ,.hero
+    ,.custmers-review
+    ,.video-part
+    ,.dec-box,
+    .grid--footer
+    ,.copy-right{
+        grid-template-columns: 1fr ;
+    }
+
+    .header-part
+    ,.how,
+    .custmers-review
+    ,.grid--footer
+    ,.text-box-1{
+        text-align: center;
+    }
+    .header-part{
+        flex-direction: column;
+    }
+    .link{
+        margin: 1.2rem 0;
+    }
+    .main-nav
+    ,.img-markting img
+    ,.slide-icons div{
+        display: none;
+    }
+    .text-box-1{
+        margin-bottom: 3rem;
+    }
+    
+    .side-img-box img {
+        width: 60%;
+    }
+    
+    .text-box-markting {
+        padding: 6.4rem 4.8rem;
+    }
+    .img-box{
+       
+        display: grid;
+    }
+    .img-box img {
+        width: 40%;
+        justify-self: end;
+    }
+    .grid-div
+    ,.custmers-review
+    ,.grid--footer
+    ,.copy-right{
+        gap: 3rem;
+    }
+    .activte-box {
+        width: 80%;
+        padding: 4rem 8rem;
+    }
+    .submit-text {
+        width: 78%;
+    }
+    .price-box {
+        padding: 4rem;
+        width: 100%;
+    }
+    .price-btn {
+        padding: 1.8rem 2.8rem;
+        font-size: 2rem;
+    }
+    .price-box-full::after {
+        font-size: 1.4rem;
+        left: 208px;
+    }
+    .name-cus {
+        font-size: 2rem;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+    .custmer-dec{
+        width: 100%;
+    }
+    .sponsers{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .sponser:nth-child(10){
+        grid-column: -4/-1;
+    }
+    .sponser-header {
+        width: 85%;
+    }
+    .grid--footer {
+        margin-bottom: 9rem;
+    }
+    .footer-icons
+    ,.address-list
+    ,.address-list li{
+        align-self: center;
+    }
+    .btn-mobile-nav{
+        display: block;
+        border: none;
+        font-size: 3.2rem;
+        color: #000;
+    }
+    .sponser-stritch{
+        grid-column: auto;
+    }
+    .head-side {
+    padding: 4.4rem 3.6rem;
+    }
+}
+/**************************/
+/* BELOW 375px (Phones) */
+/**************************/
+    
+@media (max-width:23.5em){
+.price-box-full::after {
+    font-size: 1.4rem;
+    left: 176px;
+}
+}
